@@ -1,0 +1,10 @@
+{
+  "description": "Manage and transfer digital assets securely with features for owners, beneficiaries, and legal verifiers, ensuring a smooth inheritance process.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

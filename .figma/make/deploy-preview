@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+# Build in development mode to emit sourcemaps.
+cd frontend && pnpm run build --mode development
+cd ..
+figma make deploy-preview --build-dir frontend/dist
